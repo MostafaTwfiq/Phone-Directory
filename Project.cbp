@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Add_Fn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Add_Fn.h" />
+		<Unit filename="Ansi_Colors.h" />
+		<Unit filename="Delete_Fn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Delete_Fn.h" />
+		<Unit filename="FirstOpen_Fn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FirstOpen_Fn.h" />
+		<Unit filename="Input_Fn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Input_Fn.h" />
+		<Unit filename="Input_Fn_For_Search.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Input_Fn_For_Search.h" />
+		<Unit filename="Load_Fn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Load_Fn.h" />
+		<Unit filename="Modify_Fn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Modify_Fn.h" />
+		<Unit filename="Multi_Search_Fn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Multi_Search_Fn.h" />
+		<Unit filename="Print_Fn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Print_Fn.h" />
+		<Unit filename="Quit_Fn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Quit_Fn.h" />
+		<Unit filename="Remove_New_Line.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Remove_New_Line.h" />
+		<Unit filename="Save_Fn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Save_Fn.h" />
+		<Unit filename="Search_Fn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Search_Fn.h" />
+		<Unit filename="Structs.h" />
+		<Unit filename="Validations.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Validations.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="numberOfElements.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="numberOfElements.h" />
+		<Unit filename="separate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="separate.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
